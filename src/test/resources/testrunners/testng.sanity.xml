@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OpenCart Application Test Regresssion Suite" thread-count="3" parallel="tests" verbose="4">
+	
+ 	<test name="Login Page Test">
+		<classes>
+			<class name="MyTest.GoogleTest" />
+		</classes>
+ 	</test>
+ 	</suite>
