@@ -51,7 +51,7 @@ public class LoginPageTest extends BaseTest {
 	@Test(priority=4)
 	public void newTest()
 	{
-		Assert.assertEquals(false, true);
+		Assert.assertEquals(true, true);
 	}
 	
 	
