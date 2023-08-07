@@ -48,10 +48,16 @@ public class LoginPageTest extends BaseTest {
 		Assert.assertEquals(accountsPage.isLogoutLinkExists(), true);
 	}
 	
+	@Test(priority=4)
+	public void newTest()
+	{
+		Assert.assertEquals(false, true);
+	}
+	
 	
 	@Description("Assertion failed check test.........")
 	@Severity(SeverityLevel.CRITICAL)
-	@Test(priority=4)
+	@Test(priority=4, enabled=false)
 	public void AssertionFailTest()
 	{
 		Assert.assertEquals(false, true);
